@@ -11,3 +11,75 @@
  Tags:         -
  Text Domain:  twenty-seventeen-child
 */
+
+/*
+jetpack: remove line trought on image tiled gallery in post
+*/
+.tiled-gallery .tiled-gallery-item a {
+    box-shadow: none;
+}
+
+/*
+sidebar ads
+*/
+aside .adds {
+    min-height: 600px;
+}
+
+/*
+page builder: opening hours
+*/
+.opening-hours .panel-grid div:first-child {
+    margin-bottom: 0px !important;
+}
+
+.opening-hours .panel-grid div:first-child div {
+    padding-bottom: 0 !important;
+}
+
+.opening-hours .widget ul li {
+    border-top: none;
+}
+
+/*
+* custom style
+*/
+.adds ins {
+    background: none;
+    overflow: hidden;
+}
+
+.full-width .site-content .wrap,
+.full-width .site-content #primary {
+    max-width: 100%;
+    padding: 0;
+}
+
+.full-width .wrap #main nav,
+.full-width .wrap #main article > *:not(.entry-content),
+.full-width .wrap #main .panel-row-style {
+  padding: 0 2em !important;
+  margin: auto;
+}
+
+.full-width .wrap #main article > .entry-footer {
+  padding-top: 2em !important;
+  padding-bottom: 2em !important;
+}
+
+/* tablet */
+@media screen and (min-width: 48em) {
+  .full-width .wrap #main nav,
+  .full-width .wrap #main article > *:not(.entry-content),
+  .full-width .wrap #main .panel-row-style {
+    padding: 0 3em !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .full-width .wrap #main nav,
+  .full-width .wrap #main article > *:not(.entry-content),
+  .full-width .wrap #main .panel-row-style {
+    padding: 0 calc(50vw - 452px) !important;
+  }
+}

@@ -1,1 +1,3 @@
-<?php return; ?>
+<?php
+// remove coment form
+return; ?>
